@@ -1,0 +1,140 @@
+html, body, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul.mainmenu {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul.mainmenu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.mainmenu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.2s ease;
+}
+
+ul.mainmenu li a:hover {
+  color: #100000;
+}
+.content {
+  background-color: #444;
+  padding: 20px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.form-contact {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #555;
+  color: #fff;
+}
+
+.form-contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-contact input[type="text"],
+.form-contact textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.form-contact textarea {
+  height: 150px;
+}
+
+.form-contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.flash {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.success {
+  background-color: #8bc34a;
+  color: #333;
+}
+
+.error {
+  background-color: #e57373;
+  color: #fff;
+}
+
+.form-contact {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #555;
+  color: #fff;
+}
+
+.form-contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-contact input[type="text"],
+.form-contact input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.form-contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
