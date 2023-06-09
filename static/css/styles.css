@@ -138,3 +138,13 @@ ul.mainmenu li a:hover {
   padding: 10px 20px;
   cursor: pointer;
 }
+
+.list-posts li .title {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #ffeb3b;
+}
+
+.list-posts li .annonce {
+  color: #888;
+}
